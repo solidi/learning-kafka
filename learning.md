@@ -67,9 +67,13 @@
 - Partitioners decide where to write data from the producers.
 - Consumers are organized by consuer groups.
 - Deleting a topic is an operational task that requires special settings to be applied.
+- Another broker becomes the primary  partition of a topic if the broker fails.
 
 ## Resources
 
 1. [The Log](https://goo.gl/emw4M2)
 1. [kafka-monitor](https://github.com/linkedin/kafka-monitor)
 1. [confluent.io](https://www.confluent.io/)
+1. [Cloudera](https://www.cloudera.com/)
+1. [HortonWorks](https://hortonworks.com/)
+1. [AWS Kinesis](https://aws.amazon.com/kinesis)
