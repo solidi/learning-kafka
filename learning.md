@@ -52,6 +52,8 @@
     - Logical (buckets)
     - Many Topics
     - Resilient
+- Focus is on latency and thruput. 
+    - Minimum 32gb ram, 24 cpu cores, numerous drives.
 
 
 ## Questions
@@ -64,8 +66,10 @@
 - Producers perform writes to a topic.
 - Partitioners decide where to write data from the producers.
 - Consumers are organized by consuer groups.
+- Deleting a topic is an operational task that requires special settings to be applied.
 
 ## Resources
 
 1. [The Log](https://goo.gl/emw4M2)
-`
+1. [kafka-monitor](https://github.com/linkedin/kafka-monitor)
+1. [confluent.io](https://www.confluent.io/)
